@@ -38,7 +38,7 @@ print("Sistemi bütün bunları bilerek kullanınız.\n")
 print(colorama.Fore.BLUE + "Güncellemeler kontrol ediliyor..." + colorama.Fore.RESET)
 connected = False
 try:
-    versioncontrol.connect(("localhost", 43678))
+    versioncontrol.connect(("213.248.131.78", 43678))
     connected = True
 except:
     print("Güncellemeler kontrol edilemedi.")
@@ -76,7 +76,7 @@ else:
 
 print(colorama.Fore.YELLOW + "Sunucuya bağlanılıyor..." + colorama.Fore.RESET)
 try:
-    s.connect(("localhost", 43677))
+    s.connect(("213.248.131.78", 43677))
     print(colorama.Fore.GREEN + "Sunucuya bağlanıldı." + colorama.Fore.RESET)
     time.sleep(3)
 except:
